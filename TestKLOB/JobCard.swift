@@ -35,9 +35,10 @@ struct JobCard: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text(positionName)
                     .font(.headline)
+                    .foregroundStyle(Color.customBlue)
                 Text(corporateName)
                     .font(.subheadline)
-                    .foregroundColor(.gray)
+                    .foregroundColor(Color.customBlue)
                 HStack {
                     Text(status)
                         .font(.caption)
